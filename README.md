@@ -36,6 +36,9 @@
 <h3>src/data_heatmap.py</h3>
 <p>This script creates a heatmap of the NO23 levels. The heatmap provides a geographical visualization of NO23 concentrations, with color indicating the level of NO23. Outliers are handled and logarithmic scaling is applied to better visualize the data spread.</p>
 
+<h3>src/data_concentration.py</h3>
+<p>This script creates a concentration graph of the NO23 levels. The graph provides a visualization of NO23 mean levels, throughout multiple years. Outliers are handled and quartile scaling is applied to better visualize the data spread.</p>
+
 <h2>Output</h2>
 
 <p>All scripts output their respective figures to the <code>figures</code> directory. The figures are saved in PNG format for static visualizations and HTML format for interactive plots.</p>
