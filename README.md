@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Visualizing Water Quality Data - BlueGap</title>
-</head>
 <body>
 
 <h1>Visualizing Water Quality Data - BlueGap</h1>
