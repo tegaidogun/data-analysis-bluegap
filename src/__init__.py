@@ -1,5 +1,3 @@
-# src/__init__.py
-
 # Imports for external use
 from .data_loader import load_data, preprocess_data
 from .utilities import remove_outliers

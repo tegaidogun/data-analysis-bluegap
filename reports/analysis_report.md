@@ -19,13 +19,14 @@ The data set consists of measurements from multiple water quality monitoring sta
 ### Mean Nitrogen Concentration by Year
 
 + The annual mean concentration of nitrogen was calculated to observe trends over the years. This helps in understanding long-term changes in water quality.
-[View the Data Analysis Notebook](http://localhost:8888/notebooks/01_Data_Analysis.ipynb)
+
+[View the Data Analysis Notebook](https://mybinder.org/v2/gh/tegaidogun/data-analysis-bluegap/HEAD?labpath=notebooks%2F01_Data_Analysis.ipynb)
 
 ### Spatial Distribution of Nitrogen Concentration
 
 + A spatial analysis was performed to identify geographical patterns and potential hotspots of nitrogen concentration.
-+ View the Visualization Notebook
-(./notebooks/02_Visualization.ipynb)
+
+[View the Visualization Notebook](https://mybinder.org/v2/gh/tegaidogun/data-analysis-bluegap/HEAD?labpath=notebooks%2F02_Visualization.ipynb)
 
 ![](figures/mean_nitrogen_by_year.png)
 
@@ -34,8 +35,8 @@ The data set consists of measurements from multiple water quality monitoring sta
 ## Interactive Visualizations
 
 + Explore interactive visualizations to get a more dynamic understanding of data distributions and patterns.
-+ View the Interactive Visualizations Notebook
-(./notebooks/03_Interactive_Visualizations.ipynb)
+
+[View the Interactive Visualizations Notebook](https://mybinder.org/v2/gh/tegaidogun/data-analysis-bluegap/HEAD?labpath=notebooks%2F03_Interactive_Visualizations.ipynb)
 
 ## Conclusion
 
