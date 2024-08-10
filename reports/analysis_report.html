@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Quality Analysis Report</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            line-height: 1.6; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%; /* You can adjust the width as needed */
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { 
+            color: #333; 
+        }
+        p, li { 
+            color: #666; 
+        }
+        img { 
+            width: 100%; 
+            max-width: 600px; 
+            height: auto; 
+        }
+        .figure { 
+            margin-top: 20px; 
+            margin-bottom: 20px; 
+        }
+        .notebook-link { 
+            margin-top: 20px; 
+        }
+        .notebook-link a { 
+            text-decoration: none; 
+            color: blue; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Water Quality Analysis Report</h1>
+
+        <h2>Introduction</h2>
+        <p>This report presents the findings from the analysis of water quality data, focusing on the concentration of nitrogen (NO23) across various stations over time. Our objective is to identify trends, distribution, and outliers in the nitrogen concentrations, which will aid in environmental assessments and regulatory compliance efforts.</p>
+
+        <h2>Data Overview</h2>
+        <p>The data set consists of measurements from multiple water quality monitoring stations, including parameters like date, location (latitude and longitude), and nitrogen concentration (NO23).</p>
+
+        <h2>Data Cleaning and Preprocessing</h2>
+        <p>Data was preprocessed to ensure accuracy and relevance:</p>
+        <ul>
+            <li>Unnecessary columns such as 'uni' were removed as they contained redundant information.</li>
+            <li>Outliers were identified and removed using the Interquartile Range (IQR) method to focus on typical data ranges.</li>
+        </ul>
+
+        <h2>Analysis</h2>
+        <p><a href="./notebooks/01_Data_Analysis.ipynb">View the Data Analysis Notebook</a></p>
+
+        <h3>Mean Nitrogen Concentration by Year</h3>
+        <div class="figure">
+            <img src="figures/mean_nitrogen_by_year.png" alt="Mean Nitrogen Concentration by Year">
+        </div>
+
+        <h3>Spatial Distribution of Nitrogen Concentration</h3>
+        <div class="figure">
+            <img src="figures/spatial_distribution_nitrogen.png" alt="Spatial Distribution of Nitrogen Concentration">
+        </div>
+        <p><a href="./notebooks/02_Visualization.ipynb">View the Visualization Notebook</a></p>
+
+        <h2>Interactive Visualizations</h2>
+        <p>Explore interactive visualizations to get a more dynamic understanding of data distributions and patterns.</p>
+        <p><a href="./notebooks/03_Interactive_Visualizations.ipynb">View the Interactive Visualizations Notebook</a></p>
+
+        <h2>Conclusion</h2>
+        <p>The analysis highlighted significant variations in nitrogen concentration across different years and locations. Understanding these variations is crucial for targeted environmental protection and remediation efforts.</p>
+
+        <h2>Recommendations</h2>
+        <p>Continued monitoring and more focused studies on identified hotspots are recommended to assess the sources and impacts of nitrogen concentrations.</p>
+        <p>Implementing advanced analytical techniques like time series forecasting could provide further insights into future trends.</p>
+
+        <h2>Note</h2>
+        <p>To view the Jupyter notebooks, ensure you have Jupyter Notebook installed on your system.</p>
+    </div>
+</body>
+</html>
