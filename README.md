@@ -55,3 +55,7 @@ The analysis highlighted significant variations in nitrogen concentration across
 ### Note
 
 To view the Jupyter notebooks locally, ensure you have [Jupyter Notebook](https://jupyter.org/install) installed on your system.
+
+## License
+
+This project is licensed under the GNU GPL v3 License. See the `LICENSE` file for details.
